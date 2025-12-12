@@ -1,0 +1,119 @@
+[
+  {
+    "dataset_id": "ds_1",
+    "from": 1700000000000,
+    "to": 1700003600000,
+    "datapoints": [
+      {
+        "timestamp": 1700003600000,
+        "REQUESTS": 1250,
+        "ERRORS": 12,
+        "P50_LATENCY": 45.2,
+        "P95_LATENCY": 150.3,
+        "P99_LATENCY": 300.5
+      }
+    ],
+    "annotations": []
+  },
+  {
+    "dataset_id": "ds_2",
+    "from": 1700000000000,
+    "to": 1700003600000,
+    "datapoints": [
+      {
+        "timestamp": 1700003600000,
+        "REQUESTS": 850,
+        "ERRORS": 5,
+        "AVG_LATENCY": 72.4
+      }
+    ],
+    "annotations": []
+  },
+  {
+    "dataset_id": "ds_3",
+    "from": 1700000000000,
+    "to": 1700003600000,
+    "datapoints": [
+      {
+        "timestamp": 1700003600000,
+        "DOWNTIME": 120,
+        "DEPRECATION_STAGE": 3,
+        "LAST_ACTIVITY": 1699999000000
+      }
+    ],
+    "annotations": []
+  },
+  {
+    "dataset_id": "ds_4",
+    "from": 1700000000000,
+    "to": 1700003600000,
+    "datapoints": [
+      {
+        "timestamp": 1700003600000,
+        "LOGIN_REQUESTS": 2000,
+        "SUCCESS_RATE": 95.6,
+        "FAIL_RATE": 4.4,
+        "AVG_RESPONSE": 85.3
+      }
+    ],
+    "annotations": []
+  },
+  {
+    "dataset_id": "ds_5",
+    "from": 1700000000000,
+    "to": 1700003600000,
+    "datapoints": [
+      {
+        "timestamp": 1700003600000,
+        "TX_COUNT": 1500,
+        "FAILED_TX": 25,
+        "P95_LATENCY": 160.2,
+        "THROUGHPUT": 12000
+      }
+    ],
+    "annotations": []
+  },
+  {
+    "dataset_id": "ds_6",
+    "from": 1700000000000,
+    "to": 1700003600000,
+    "datapoints": [
+      {
+        "timestamp": 1700003600000,
+        "BATCH_JOBS": 50,
+        "LAST_RUN": 1699998000000,
+        "STATUS": 1
+      }
+    ],
+    "annotations": []
+  },
+  {
+    "dataset_id": "ds_7",
+    "from": 1700000000000,
+    "to": 1700003600000,
+    "datapoints": [
+      {
+        "timestamp": 1700003600000,
+        "CACHE_HIT_RATE": 87.5,
+        "REQUESTS": 900,
+        "EDGE_LATENCY": 45.7
+      }
+    ],
+    "annotations": []
+  },
+  {
+    "dataset_id": "ds_8",
+    "from": 1700000000000,
+    "to": 1700003600000,
+    "datapoints": [
+      {
+        "timestamp": 1700003600000,
+        "QPS": 1200,
+        "CONNECTIONS": 200,
+        "REPLICA_LAG": 5,
+        "DISK_USAGE": 80
+      }
+    ],
+    "annotations": []
+  }
+]
