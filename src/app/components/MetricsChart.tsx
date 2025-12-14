@@ -1,87 +1,166 @@
-import React from 'react';
-import ReactECharts from 'echarts-for-react';  
+import React, { useEffect, useState } from "react";
+import ReactECharts from "echarts-for-react";
+import { apiCall } from "../lib/api";
+import { useDatasetContext } from "../context/useDatasetContext";
 
 
-const option = {
-  title: { text: 'Stacked Line' },
-  tooltip: { trigger: 'axis' },
-  legend: {
-    data: ['Email', 'Union Ads', 'Video Ads', 'Direct', 'Search Engine']
-  },
-  grid: {
-    left: '3%',
-    right: '4%',
-    bottom: '3%',
-    containLabel: true
-  },
-  xAxis: {
-    type: 'category',
-    boundaryGap: false,
-    data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
-  },
-  yAxis: { type: 'value' },
 
-  series: [
-    {
-      name: 'Email',
-      type: 'line',
-      stack: 'Total',
-      data: [120, 132, 101, 134, 90, 230, 210],
+interface EChartOption {
+  title?: {
+    text?: string;
+  };
 
-      // 🔴 Annotation
-      markLine: {
-        symbol: 'none',
-        lineStyle: { type: 'dashed', color: '#ff7300' },
-        label: {
-          formatter: 'Spike detected',
-          position: 'end'
-        },
-        data: [{ xAxis: 'Thu' }]
-      }
-    },
+  tooltip?: {
+    trigger?: "axis" | "item" | "none";
+  };
 
-    {
-      name: 'Union Ads',
-      type: 'line',
-      stack: 'Total',
-      data: [220, 182, 191, 234, 290, 330, 310]
-    },
-    {
-      name: 'Video Ads',
-      type: 'line',
-      stack: 'Total',
-      data: [150, 232, 201, 154, 190, 330, 410]
-    },
-    {
-      name: 'Direct',
-      type: 'line',
-      stack: 'Total',
-      data: [320, 332, 301, 334, 390, 330, 320]
-    },
-    {
-      name: 'Search Engine',
-      type: 'line',
-      stack: 'Total',
-      data: [820, 932, 901, 934, 1290, 1330, 1320]
-    }
-  ]
-};
+  legend?: {
+    data?: string[];
+    bottom?: number | string;
+  };
 
+  grid?: {
+    left?: string | number;
+    right?: string | number;
+    bottom?: string | number;
+    top?: string | number;
+    containLabel?: boolean;
+  };
 
-function Chart() {
-  return (
-    <div>
-      <ReactECharts
-  option={option}
-  notMerge={true}
-  lazyUpdate={true}
-  theme={"theme_name"}
-//   onChartReady={this.onChartReadyCallback}
-//   onEvents={EventsDict}
-//   opts={}
-/>
-    </div>
-  )
+  xAxis?: {
+    type?: "category" | "time" | "value";
+    boundaryGap?: boolean;
+    data?: (string | number)[];
+  };
+
+  yAxis?: {
+    type?: "value" | "log";
+    min?: number;
+    max?: number;
+  };
+
+  series: SeriesOption[];
 }
 
-export default Chart;
+interface SeriesOption {
+  name: string;
+  type: "line" | "bar";
+  data: number[];
+  smooth?: boolean;
+}
+
+
+function MetricsChart() {
+  const { contextData } = useDatasetContext();
+  const [option, setOption] = useState<EChartOption | undefined>(undefined);
+
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        const records = await apiCall(
+          `/metrics?dataset=${contextData?.id}`,
+          "GET"
+        );
+        
+        // Filter records that actually contain datapoints
+        const validRecords = records.filter(
+          (record: { datapoints: { timestamp: string | number | Date }[] }) =>
+            Array.isArray(record.datapoints) && record.datapoints.length > 0
+        );
+
+        if (validRecords.length === 0) {
+          setOption({
+            title: { text: "No metrics available" },
+            tooltip: { trigger: "axis" },
+            xAxis: { type: "category", data: [] },
+            yAxis: { type: "value" },
+            series: [],
+          });
+          return;
+        }
+
+        /* =======================
+           X AXIS (TIME)
+        ======================= */
+
+        const xAxisData = validRecords.map((record: any) =>
+          new Date(record.datapoints[0].timestamp).toLocaleTimeString()
+        );
+
+        /* =======================
+           METRICS (SERIES)
+        ======================= */
+
+        const metricKeys = Object.keys(
+          validRecords[0].datapoints[0]
+        ).filter((key) => key !== "timestamp");
+
+        const series: SeriesOption[] = metricKeys.map((key) => ({
+          name: key
+            .replace(/_/g, " ")
+            .toLowerCase()
+            .replace(/^\w/, (c) => c.toUpperCase()),
+          type: "line",
+          smooth: true,
+          data: validRecords.map((record: any) =>
+            Number(record.datapoints[0][key] ?? 0)
+          ),
+        }));
+
+        /* =======================
+           SET OPTION
+        ======================= */
+
+        setOption({
+          title: { text: "Performance Metrics" },
+          tooltip: { trigger: "axis" },
+          legend: {
+            bottom: 0,
+            data: series.map((s) => s.name),
+          },
+          grid: {
+            left: "3%",
+            right: "4%",
+            bottom: "12%",
+            containLabel: true,
+          },
+          xAxis: {
+            type: "category",
+            boundaryGap: false,
+            data: xAxisData,
+          },
+          yAxis: {
+            type: "value",
+          },
+          series,
+        });
+      } catch (error) {
+        setOption({
+            title: { text: "No metrics available" },
+            tooltip: { trigger: "axis" },
+            xAxis: { type: "category", data: [] },
+            yAxis: { type: "value" },
+            series: [],
+          });
+          return;
+      }
+    }
+
+    if (contextData?.id) {
+      fetchData();
+    }
+  }, [contextData]);
+
+  return (
+    <div style={{ width: "100%", height: "400px" }}>
+      <ReactECharts
+        option={option ?? {}}
+        notMerge={true}
+        lazyUpdate={true}
+        style={{ height: "100%", width: "100%" }}
+      />
+    </div>
+  );
+}
+
+export default MetricsChart;

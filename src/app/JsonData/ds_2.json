@@ -1,1306 +1,1212 @@
-{"dataset_id": "ds_2",
-    "annotations": [],
-"records":[
-  {
-    "from": 1700000000000,
-    "to": 1700000600000,
-    "datapoints": [
-      {
-        "timestamp": 1700000600000,
-        "REQUESTS": 608,
-        "ERRORS": 17,
-        "AVG_LATENCY": 42.4
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700000600000,
-    "to": 1700001200000,
-    "datapoints": [
-      {
-        "timestamp": 1700001200000,
-        "REQUESTS": 1104,
-        "ERRORS": 18,
-        "AVG_LATENCY": 59.1
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700001200000,
-    "to": 1700001800000,
-    "datapoints": [
-      {
-        "timestamp": 1700001800000,
-        "REQUESTS": 1384,
-        "ERRORS": 1,
-        "AVG_LATENCY": 66.6
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700001800000,
-    "to": 1700002400000,
-    "datapoints": [
-      {
-        "timestamp": 1700002400000,
-        "REQUESTS": 979,
-        "ERRORS": 3,
-        "AVG_LATENCY": 103.1
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700002400000,
-    "to": 1700003000000,
-    "datapoints": [
-      {
-        "timestamp": 1700003000000,
-        "REQUESTS": 1388,
-        "ERRORS": 16,
-        "AVG_LATENCY": 83.7
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700003000000,
-    "to": 1700003600000,
-    "datapoints": [
-      {
-        "timestamp": 1700003600000,
-        "REQUESTS": 976,
-        "ERRORS": 0,
-        "AVG_LATENCY": 111.8
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700003600000,
-    "to": 1700004200000,
-    "datapoints": [
-      {
-        "timestamp": 1700004200000,
-        "REQUESTS": 1672,
-        "ERRORS": 14,
-        "AVG_LATENCY": 112.4
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700004200000,
-    "to": 1700004800000,
-    "datapoints": [
-      {
-        "timestamp": 1700004800000,
-        "REQUESTS": 1090,
-        "ERRORS": 1,
-        "AVG_LATENCY": 42.2
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700004800000,
-    "to": 1700005400000,
-    "datapoints": [
-      {
-        "timestamp": 1700005400000,
-        "REQUESTS": 1076,
-        "ERRORS": 20,
-        "AVG_LATENCY": 63.7
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700005400000,
-    "to": 1700006000000,
-    "datapoints": [
-      {
-        "timestamp": 1700006000000,
-        "REQUESTS": 691,
-        "ERRORS": 6,
-        "AVG_LATENCY": 41.1
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700006000000,
-    "to": 1700006600000,
-    "datapoints": [
-      {
-        "timestamp": 1700006600000,
-        "REQUESTS": 1446,
-        "ERRORS": 13,
-        "AVG_LATENCY": 109.0
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700006600000,
-    "to": 1700007200000,
-    "datapoints": [
-      {
-        "timestamp": 1700007200000,
-        "REQUESTS": 1688,
-        "ERRORS": 19,
-        "AVG_LATENCY": 99.9
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700007200000,
-    "to": 1700007800000,
-    "datapoints": [
-      {
-        "timestamp": 1700007800000,
-        "REQUESTS": 618,
-        "ERRORS": 18,
-        "AVG_LATENCY": 42.2
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700007800000,
-    "to": 1700008400000,
-    "datapoints": [
-      {
-        "timestamp": 1700008400000,
-        "REQUESTS": 1272,
-        "ERRORS": 18,
-        "AVG_LATENCY": 43.3
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700008400000,
-    "to": 1700009000000,
-    "datapoints": [
-      {
-        "timestamp": 1700009000000,
-        "REQUESTS": 1796,
-        "ERRORS": 10,
-        "AVG_LATENCY": 41.2
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700009000000,
-    "to": 1700009600000,
-    "datapoints": [
-      {
-        "timestamp": 1700009600000,
-        "REQUESTS": 1546,
-        "ERRORS": 16,
-        "AVG_LATENCY": 92.3
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700009600000,
-    "to": 1700010200000,
-    "datapoints": [
-      {
-        "timestamp": 1700010200000,
-        "REQUESTS": 1726,
-        "ERRORS": 11,
-        "AVG_LATENCY": 56.0
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700010200000,
-    "to": 1700010800000,
-    "datapoints": [
-      {
-        "timestamp": 1700010800000,
-        "REQUESTS": 1828,
-        "ERRORS": 12,
-        "AVG_LATENCY": 70.0
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700010800000,
-    "to": 1700011400000,
-    "datapoints": [
-      {
-        "timestamp": 1700011400000,
-        "REQUESTS": 845,
-        "ERRORS": 7,
-        "AVG_LATENCY": 106.5
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700011400000,
-    "to": 1700012000000,
-    "datapoints": [
-      {
-        "timestamp": 1700012000000,
-        "REQUESTS": 1255,
-        "ERRORS": 0,
-        "AVG_LATENCY": 85.9
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700012000000,
-    "to": 1700012600000,
-    "datapoints": [
-      {
-        "timestamp": 1700012600000,
-        "REQUESTS": 1096,
-        "ERRORS": 4,
-        "AVG_LATENCY": 108.6
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700012600000,
-    "to": 1700013200000,
-    "datapoints": [
-      {
-        "timestamp": 1700013200000,
-        "REQUESTS": 502,
-        "ERRORS": 0,
-        "AVG_LATENCY": 114.0
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700013200000,
-    "to": 1700013800000,
-    "datapoints": [
-      {
-        "timestamp": 1700013800000,
-        "REQUESTS": 1961,
-        "ERRORS": 11,
-        "AVG_LATENCY": 87.3
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700013800000,
-    "to": 1700014400000,
-    "datapoints": [
-      {
-        "timestamp": 1700014400000,
-        "REQUESTS": 1898,
-        "ERRORS": 11,
-        "AVG_LATENCY": 94.7
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700014400000,
-    "to": 1700015000000,
-    "datapoints": [
-      {
-        "timestamp": 1700015000000,
-        "REQUESTS": 706,
-        "ERRORS": 8,
-        "AVG_LATENCY": 106.5
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700015000000,
-    "to": 1700015600000,
-    "datapoints": [
-      {
-        "timestamp": 1700015600000,
-        "REQUESTS": 710,
-        "ERRORS": 2,
-        "AVG_LATENCY": 113.0
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700015600000,
-    "to": 1700016200000,
-    "datapoints": [
-      {
-        "timestamp": 1700016200000,
-        "REQUESTS": 865,
-        "ERRORS": 6,
-        "AVG_LATENCY": 56.3
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700016200000,
-    "to": 1700016800000,
-    "datapoints": [
-      {
-        "timestamp": 1700016800000,
-        "REQUESTS": 1312,
-        "ERRORS": 16,
-        "AVG_LATENCY": 53.4
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700016800000,
-    "to": 1700017400000,
-    "datapoints": [
-      {
-        "timestamp": 1700017400000,
-        "REQUESTS": 1549,
-        "ERRORS": 13,
-        "AVG_LATENCY": 105.7
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700017400000,
-    "to": 1700018000000,
-    "datapoints": [
-      {
-        "timestamp": 1700018000000,
-        "REQUESTS": 1034,
-        "ERRORS": 5,
-        "AVG_LATENCY": 55.6
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700018000000,
-    "to": 1700018600000,
-    "datapoints": [
-      {
-        "timestamp": 1700018600000,
-        "REQUESTS": 743,
-        "ERRORS": 12,
-        "AVG_LATENCY": 80.3
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700018600000,
-    "to": 1700019200000,
-    "datapoints": [
-      {
-        "timestamp": 1700019200000,
-        "REQUESTS": 1947,
-        "ERRORS": 1,
-        "AVG_LATENCY": 66.1
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700019200000,
-    "to": 1700019800000,
-    "datapoints": [
-      {
-        "timestamp": 1700019800000,
-        "REQUESTS": 642,
-        "ERRORS": 3,
-        "AVG_LATENCY": 94.3
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700019800000,
-    "to": 1700020400000,
-    "datapoints": [
-      {
-        "timestamp": 1700020400000,
-        "REQUESTS": 1416,
-        "ERRORS": 12,
-        "AVG_LATENCY": 115.1
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700020400000,
-    "to": 1700021000000,
-    "datapoints": [
-      {
-        "timestamp": 1700021000000,
-        "REQUESTS": 1774,
-        "ERRORS": 12,
-        "AVG_LATENCY": 78.3
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700021000000,
-    "to": 1700021600000,
-    "datapoints": [
-      {
-        "timestamp": 1700021600000,
-        "REQUESTS": 1033,
-        "ERRORS": 10,
-        "AVG_LATENCY": 117.8
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700021600000,
-    "to": 1700022200000,
-    "datapoints": [
-      {
-        "timestamp": 1700022200000,
-        "REQUESTS": 1350,
-        "ERRORS": 13,
-        "AVG_LATENCY": 105.1
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700022200000,
-    "to": 1700022800000,
-    "datapoints": [
-      {
-        "timestamp": 1700022800000,
-        "REQUESTS": 1772,
-        "ERRORS": 1,
-        "AVG_LATENCY": 67.5
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700022800000,
-    "to": 1700023400000,
-    "datapoints": [
-      {
-        "timestamp": 1700023400000,
-        "REQUESTS": 1799,
-        "ERRORS": 9,
-        "AVG_LATENCY": 61.1
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700023400000,
-    "to": 1700024000000,
-    "datapoints": [
-      {
-        "timestamp": 1700024000000,
-        "REQUESTS": 1906,
-        "ERRORS": 5,
-        "AVG_LATENCY": 43.5
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700024000000,
-    "to": 1700024600000,
-    "datapoints": [
-      {
-        "timestamp": 1700024600000,
-        "REQUESTS": 656,
-        "ERRORS": 7,
-        "AVG_LATENCY": 44.7
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700024600000,
-    "to": 1700025200000,
-    "datapoints": [
-      {
-        "timestamp": 1700025200000,
-        "REQUESTS": 1561,
-        "ERRORS": 17,
-        "AVG_LATENCY": 90.2
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700025200000,
-    "to": 1700025800000,
-    "datapoints": [
-      {
-        "timestamp": 1700025800000,
-        "REQUESTS": 1633,
-        "ERRORS": 6,
-        "AVG_LATENCY": 67.0
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700025800000,
-    "to": 1700026400000,
-    "datapoints": [
-      {
-        "timestamp": 1700026400000,
-        "REQUESTS": 1313,
-        "ERRORS": 2,
-        "AVG_LATENCY": 76.4
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700026400000,
-    "to": 1700027000000,
-    "datapoints": [
-      {
-        "timestamp": 1700027000000,
-        "REQUESTS": 1025,
-        "ERRORS": 13,
-        "AVG_LATENCY": 88.3
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700027000000,
-    "to": 1700027600000,
-    "datapoints": [
-      {
-        "timestamp": 1700027600000,
-        "REQUESTS": 1578,
-        "ERRORS": 7,
-        "AVG_LATENCY": 49.2
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700027600000,
-    "to": 1700028200000,
-    "datapoints": [
-      {
-        "timestamp": 1700028200000,
-        "REQUESTS": 597,
-        "ERRORS": 3,
-        "AVG_LATENCY": 92.3
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700028200000,
-    "to": 1700028800000,
-    "datapoints": [
-      {
-        "timestamp": 1700028800000,
-        "REQUESTS": 1424,
-        "ERRORS": 3,
-        "AVG_LATENCY": 119.1
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700028800000,
-    "to": 1700029400000,
-    "datapoints": [
-      {
-        "timestamp": 1700029400000,
-        "REQUESTS": 623,
-        "ERRORS": 17,
-        "AVG_LATENCY": 46.9
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700029400000,
-    "to": 1700030000000,
-    "datapoints": [
-      {
-        "timestamp": 1700030000000,
-        "REQUESTS": 1060,
-        "ERRORS": 13,
-        "AVG_LATENCY": 79.6
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700030000000,
-    "to": 1700030600000,
-    "datapoints": [
-      {
-        "timestamp": 1700030600000,
-        "REQUESTS": 1771,
-        "ERRORS": 13,
-        "AVG_LATENCY": 69.4
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700030600000,
-    "to": 1700031200000,
-    "datapoints": [
-      {
-        "timestamp": 1700031200000,
-        "REQUESTS": 1290,
-        "ERRORS": 14,
-        "AVG_LATENCY": 66.1
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700031200000,
-    "to": 1700031800000,
-    "datapoints": [
-      {
-        "timestamp": 1700031800000,
-        "REQUESTS": 1457,
-        "ERRORS": 13,
-        "AVG_LATENCY": 69.4
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700031800000,
-    "to": 1700032400000,
-    "datapoints": [
-      {
-        "timestamp": 1700032400000,
-        "REQUESTS": 1334,
-        "ERRORS": 18,
-        "AVG_LATENCY": 78.3
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700032400000,
-    "to": 1700033000000,
-    "datapoints": [
-      {
-        "timestamp": 1700033000000,
-        "REQUESTS": 523,
-        "ERRORS": 17,
-        "AVG_LATENCY": 51.8
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700033000000,
-    "to": 1700033600000,
-    "datapoints": [
-      {
-        "timestamp": 1700033600000,
-        "REQUESTS": 1593,
-        "ERRORS": 14,
-        "AVG_LATENCY": 51.8
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700033600000,
-    "to": 1700034200000,
-    "datapoints": [
-      {
-        "timestamp": 1700034200000,
-        "REQUESTS": 1268,
-        "ERRORS": 17,
-        "AVG_LATENCY": 71.1
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700034200000,
-    "to": 1700034800000,
-    "datapoints": [
-      {
-        "timestamp": 1700034800000,
-        "REQUESTS": 1666,
-        "ERRORS": 16,
-        "AVG_LATENCY": 69.7
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700034800000,
-    "to": 1700035400000,
-    "datapoints": [
-      {
-        "timestamp": 1700035400000,
-        "REQUESTS": 1375,
-        "ERRORS": 9,
-        "AVG_LATENCY": 47.1
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700035400000,
-    "to": 1700036000000,
-    "datapoints": [
-      {
-        "timestamp": 1700036000000,
-        "REQUESTS": 1577,
-        "ERRORS": 20,
-        "AVG_LATENCY": 90.5
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700036000000,
-    "to": 1700036600000,
-    "datapoints": [
-      {
-        "timestamp": 1700036600000,
-        "REQUESTS": 1406,
-        "ERRORS": 10,
-        "AVG_LATENCY": 110.5
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700036600000,
-    "to": 1700037200000,
-    "datapoints": [
-      {
-        "timestamp": 1700037200000,
-        "REQUESTS": 1216,
-        "ERRORS": 18,
-        "AVG_LATENCY": 53.8
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700037200000,
-    "to": 1700037800000,
-    "datapoints": [
-      {
-        "timestamp": 1700037800000,
-        "REQUESTS": 880,
-        "ERRORS": 16,
-        "AVG_LATENCY": 94.3
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700037800000,
-    "to": 1700038400000,
-    "datapoints": [
-      {
-        "timestamp": 1700038400000,
-        "REQUESTS": 1433,
-        "ERRORS": 0,
-        "AVG_LATENCY": 65.5
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700038400000,
-    "to": 1700039000000,
-    "datapoints": [
-      {
-        "timestamp": 1700039000000,
-        "REQUESTS": 1900,
-        "ERRORS": 2,
-        "AVG_LATENCY": 118.7
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700039000000,
-    "to": 1700039600000,
-    "datapoints": [
-      {
-        "timestamp": 1700039600000,
-        "REQUESTS": 1305,
-        "ERRORS": 6,
-        "AVG_LATENCY": 55.1
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700039600000,
-    "to": 1700040200000,
-    "datapoints": [
-      {
-        "timestamp": 1700040200000,
-        "REQUESTS": 1201,
-        "ERRORS": 7,
-        "AVG_LATENCY": 91.1
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700040200000,
-    "to": 1700040800000,
-    "datapoints": [
-      {
-        "timestamp": 1700040800000,
-        "REQUESTS": 753,
-        "ERRORS": 10,
-        "AVG_LATENCY": 93.1
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700040800000,
-    "to": 1700041400000,
-    "datapoints": [
-      {
-        "timestamp": 1700041400000,
-        "REQUESTS": 1319,
-        "ERRORS": 8,
-        "AVG_LATENCY": 91.6
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700041400000,
-    "to": 1700042000000,
-    "datapoints": [
-      {
-        "timestamp": 1700042000000,
-        "REQUESTS": 714,
-        "ERRORS": 14,
-        "AVG_LATENCY": 106.8
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700042000000,
-    "to": 1700042600000,
-    "datapoints": [
-      {
-        "timestamp": 1700042600000,
-        "REQUESTS": 1973,
-        "ERRORS": 11,
-        "AVG_LATENCY": 61.6
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700042600000,
-    "to": 1700043200000,
-    "datapoints": [
-      {
-        "timestamp": 1700043200000,
-        "REQUESTS": 617,
-        "ERRORS": 12,
-        "AVG_LATENCY": 81.6
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700043200000,
-    "to": 1700043800000,
-    "datapoints": [
-      {
-        "timestamp": 1700043800000,
-        "REQUESTS": 1899,
-        "ERRORS": 14,
-        "AVG_LATENCY": 64.6
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700043800000,
-    "to": 1700044400000,
-    "datapoints": [
-      {
-        "timestamp": 1700044400000,
-        "REQUESTS": 1748,
-        "ERRORS": 1,
-        "AVG_LATENCY": 111.7
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700044400000,
-    "to": 1700045000000,
-    "datapoints": [
-      {
-        "timestamp": 1700045000000,
-        "REQUESTS": 1952,
-        "ERRORS": 7,
-        "AVG_LATENCY": 67.9
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700045000000,
-    "to": 1700045600000,
-    "datapoints": [
-      {
-        "timestamp": 1700045600000,
-        "REQUESTS": 996,
-        "ERRORS": 16,
-        "AVG_LATENCY": 103.8
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700045600000,
-    "to": 1700046200000,
-    "datapoints": [
-      {
-        "timestamp": 1700046200000,
-        "REQUESTS": 1401,
-        "ERRORS": 16,
-        "AVG_LATENCY": 64.0
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700046200000,
-    "to": 1700046800000,
-    "datapoints": [
-      {
-        "timestamp": 1700046800000,
-        "REQUESTS": 1712,
-        "ERRORS": 5,
-        "AVG_LATENCY": 78.2
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700046800000,
-    "to": 1700047400000,
-    "datapoints": [
-      {
-        "timestamp": 1700047400000,
-        "REQUESTS": 1037,
-        "ERRORS": 12,
-        "AVG_LATENCY": 70.7
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700047400000,
-    "to": 1700048000000,
-    "datapoints": [
-      {
-        "timestamp": 1700048000000,
-        "REQUESTS": 1994,
-        "ERRORS": 0,
-        "AVG_LATENCY": 119.1
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700048000000,
-    "to": 1700048600000,
-    "datapoints": [
-      {
-        "timestamp": 1700048600000,
-        "REQUESTS": 1553,
-        "ERRORS": 3,
-        "AVG_LATENCY": 75.6
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700048600000,
-    "to": 1700049200000,
-    "datapoints": [
-      {
-        "timestamp": 1700049200000,
-        "REQUESTS": 1685,
-        "ERRORS": 12,
-        "AVG_LATENCY": 109.8
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700049200000,
-    "to": 1700049800000,
-    "datapoints": [
-      {
-        "timestamp": 1700049800000,
-        "REQUESTS": 1004,
-        "ERRORS": 18,
-        "AVG_LATENCY": 99.9
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700049800000,
-    "to": 1700050400000,
-    "datapoints": [
-      {
-        "timestamp": 1700050400000,
-        "REQUESTS": 1301,
-        "ERRORS": 7,
-        "AVG_LATENCY": 113.3
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700050400000,
-    "to": 1700051000000,
-    "datapoints": [
-      {
-        "timestamp": 1700051000000,
-        "REQUESTS": 1424,
-        "ERRORS": 9,
-        "AVG_LATENCY": 80.1
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700051000000,
-    "to": 1700051600000,
-    "datapoints": [
-      {
-        "timestamp": 1700051600000,
-        "REQUESTS": 727,
-        "ERRORS": 5,
-        "AVG_LATENCY": 110.5
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700051600000,
-    "to": 1700052200000,
-    "datapoints": [
-      {
-        "timestamp": 1700052200000,
-        "REQUESTS": 1971,
-        "ERRORS": 6,
-        "AVG_LATENCY": 43.8
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700052200000,
-    "to": 1700052800000,
-    "datapoints": [
-      {
-        "timestamp": 1700052800000,
-        "REQUESTS": 1402,
-        "ERRORS": 5,
-        "AVG_LATENCY": 114.9
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700052800000,
-    "to": 1700053400000,
-    "datapoints": [
-      {
-        "timestamp": 1700053400000,
-        "REQUESTS": 809,
-        "ERRORS": 10,
-        "AVG_LATENCY": 119.3
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700053400000,
-    "to": 1700054000000,
-    "datapoints": [
-      {
-        "timestamp": 1700054000000,
-        "REQUESTS": 1437,
-        "ERRORS": 8,
-        "AVG_LATENCY": 93.1
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700054000000,
-    "to": 1700054600000,
-    "datapoints": [
-      {
-        "timestamp": 1700054600000,
-        "REQUESTS": 545,
-        "ERRORS": 2,
-        "AVG_LATENCY": 102.4
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700054600000,
-    "to": 1700055200000,
-    "datapoints": [
-      {
-        "timestamp": 1700055200000,
-        "REQUESTS": 1112,
-        "ERRORS": 11,
-        "AVG_LATENCY": 89.3
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700055200000,
-    "to": 1700055800000,
-    "datapoints": [
-      {
-        "timestamp": 1700055800000,
-        "REQUESTS": 1174,
-        "ERRORS": 10,
-        "AVG_LATENCY": 116.3
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700055800000,
-    "to": 1700056400000,
-    "datapoints": [
-      {
-        "timestamp": 1700056400000,
-        "REQUESTS": 514,
-        "ERRORS": 10,
-        "AVG_LATENCY": 108.2
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700056400000,
-    "to": 1700057000000,
-    "datapoints": [
-      {
-        "timestamp": 1700057000000,
-        "REQUESTS": 633,
-        "ERRORS": 2,
-        "AVG_LATENCY": 75.8
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700057000000,
-    "to": 1700057600000,
-    "datapoints": [
-      {
-        "timestamp": 1700057600000,
-        "REQUESTS": 1078,
-        "ERRORS": 2,
-        "AVG_LATENCY": 118.6
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700057600000,
-    "to": 1700058200000,
-    "datapoints": [
-      {
-        "timestamp": 1700058200000,
-        "REQUESTS": 693,
-        "ERRORS": 4,
-        "AVG_LATENCY": 106.8
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700058200000,
-    "to": 1700058800000,
-    "datapoints": [
-      {
-        "timestamp": 1700058800000,
-        "REQUESTS": 1975,
-        "ERRORS": 5,
-        "AVG_LATENCY": 94.9
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700058800000,
-    "to": 1700059400000,
-    "datapoints": [
-      {
-        "timestamp": 1700059400000,
-        "REQUESTS": 1392,
-        "ERRORS": 10,
-        "AVG_LATENCY": 48.9
-      }
-    ],
-    "annotations": []
-  },
-  {
-    "from": 1700059400000,
-    "to": 1700060000000,
-    "datapoints": [
-      {
-        "timestamp": 1700060000000,
-        "REQUESTS": 691,
-        "ERRORS": 10,
-        "AVG_LATENCY": 111.7
-      }
-    ],
-    "annotations": []
-  }
-]
+{
+  "dataset_id": "ds_2",
+  "annotations": [
+    {
+      "id": 1,
+      "timestamp": 1234567890,
+      "text": "Deploy v2.3"
+    }
+  ],
+  "records": [
+    {
+      "from": 1700000000000,
+      "to": 1700000600000,
+      "datapoints": [
+        {
+          "timestamp": 1700000600000,
+          "REQUESTS": 608,
+          "ERRORS": 17,
+          "AVG_LATENCY": 42.4
+        }
+      ]
+    },
+    {
+      "from": 1700000600000,
+      "to": 1700001200000,
+      "datapoints": [
+        {
+          "timestamp": 1700001200000,
+          "REQUESTS": 1104,
+          "ERRORS": 18,
+          "AVG_LATENCY": 59.1
+        }
+      ]
+    },
+    {
+      "from": 1700001200000,
+      "to": 1700001800000,
+      "datapoints": [
+        {
+          "timestamp": 1700001800000,
+          "REQUESTS": 1384,
+          "ERRORS": 1,
+          "AVG_LATENCY": 66.6
+        }
+      ]
+    },
+    {
+      "from": 1700001800000,
+      "to": 1700002400000,
+      "datapoints": [
+        {
+          "timestamp": 1700002400000,
+          "REQUESTS": 979,
+          "ERRORS": 3,
+          "AVG_LATENCY": 103.1
+        }
+      ]
+    },
+    {
+      "from": 1700002400000,
+      "to": 1700003000000,
+      "datapoints": [
+        {
+          "timestamp": 1700003000000,
+          "REQUESTS": 1388,
+          "ERRORS": 16,
+          "AVG_LATENCY": 83.7
+        }
+      ]
+    },
+    {
+      "from": 1700003000000,
+      "to": 1700003600000,
+      "datapoints": [
+        {
+          "timestamp": 1700003600000,
+          "REQUESTS": 976,
+          "ERRORS": 0,
+          "AVG_LATENCY": 111.8
+        }
+      ]
+    },
+    {
+      "from": 1700003600000,
+      "to": 1700004200000,
+      "datapoints": [
+        {
+          "timestamp": 1700004200000,
+          "REQUESTS": 1672,
+          "ERRORS": 14,
+          "AVG_LATENCY": 112.4
+        }
+      ]
+    },
+    {
+      "from": 1700004200000,
+      "to": 1700004800000,
+      "datapoints": [
+        {
+          "timestamp": 1700004800000,
+          "REQUESTS": 1090,
+          "ERRORS": 1,
+          "AVG_LATENCY": 42.2
+        }
+      ]
+    },
+    {
+      "from": 1700004800000,
+      "to": 1700005400000,
+      "datapoints": [
+        {
+          "timestamp": 1700005400000,
+          "REQUESTS": 1076,
+          "ERRORS": 20,
+          "AVG_LATENCY": 63.7
+        }
+      ]
+    },
+    {
+      "from": 1700005400000,
+      "to": 1700006000000,
+      "datapoints": [
+        {
+          "timestamp": 1700006000000,
+          "REQUESTS": 691,
+          "ERRORS": 6,
+          "AVG_LATENCY": 41.1
+        }
+      ]
+    },
+    {
+      "from": 1700006000000,
+      "to": 1700006600000,
+      "datapoints": [
+        {
+          "timestamp": 1700006600000,
+          "REQUESTS": 1446,
+          "ERRORS": 13,
+          "AVG_LATENCY": 109.0
+        }
+      ]
+    },
+    {
+      "from": 1700006600000,
+      "to": 1700007200000,
+      "datapoints": [
+        {
+          "timestamp": 1700007200000,
+          "REQUESTS": 1688,
+          "ERRORS": 19,
+          "AVG_LATENCY": 99.9
+        }
+      ]
+    },
+    {
+      "from": 1700007200000,
+      "to": 1700007800000,
+      "datapoints": [
+        {
+          "timestamp": 1700007800000,
+          "REQUESTS": 618,
+          "ERRORS": 18,
+          "AVG_LATENCY": 42.2
+        }
+      ]
+    },
+    {
+      "from": 1700007800000,
+      "to": 1700008400000,
+      "datapoints": [
+        {
+          "timestamp": 1700008400000,
+          "REQUESTS": 1272,
+          "ERRORS": 18,
+          "AVG_LATENCY": 43.3
+        }
+      ]
+    },
+    {
+      "from": 1700008400000,
+      "to": 1700009000000,
+      "datapoints": [
+        {
+          "timestamp": 1700009000000,
+          "REQUESTS": 1796,
+          "ERRORS": 10,
+          "AVG_LATENCY": 41.2
+        }
+      ]
+    },
+    {
+      "from": 1700009000000,
+      "to": 1700009600000,
+      "datapoints": [
+        {
+          "timestamp": 1700009600000,
+          "REQUESTS": 1546,
+          "ERRORS": 16,
+          "AVG_LATENCY": 92.3
+        }
+      ]
+    },
+    {
+      "from": 1700009600000,
+      "to": 1700010200000,
+      "datapoints": [
+        {
+          "timestamp": 1700010200000,
+          "REQUESTS": 1726,
+          "ERRORS": 11,
+          "AVG_LATENCY": 56.0
+        }
+      ]
+    },
+    {
+      "from": 1700010200000,
+      "to": 1700010800000,
+      "datapoints": [
+        {
+          "timestamp": 1700010800000,
+          "REQUESTS": 1828,
+          "ERRORS": 12,
+          "AVG_LATENCY": 70.0
+        }
+      ]
+    },
+    {
+      "from": 1700010800000,
+      "to": 1700011400000,
+      "datapoints": [
+        {
+          "timestamp": 1700011400000,
+          "REQUESTS": 845,
+          "ERRORS": 7,
+          "AVG_LATENCY": 106.5
+        }
+      ]
+    },
+    {
+      "from": 1700011400000,
+      "to": 1700012000000,
+      "datapoints": [
+        {
+          "timestamp": 1700012000000,
+          "REQUESTS": 1255,
+          "ERRORS": 0,
+          "AVG_LATENCY": 85.9
+        }
+      ]
+    },
+    {
+      "from": 1700012000000,
+      "to": 1700012600000,
+      "datapoints": [
+        {
+          "timestamp": 1700012600000,
+          "REQUESTS": 1096,
+          "ERRORS": 4,
+          "AVG_LATENCY": 108.6
+        }
+      ]
+    },
+    {
+      "from": 1700012600000,
+      "to": 1700013200000,
+      "datapoints": [
+        {
+          "timestamp": 1700013200000,
+          "REQUESTS": 502,
+          "ERRORS": 0,
+          "AVG_LATENCY": 114.0
+        }
+      ]
+    },
+    {
+      "from": 1700013200000,
+      "to": 1700013800000,
+      "datapoints": [
+        {
+          "timestamp": 1700013800000,
+          "REQUESTS": 1961,
+          "ERRORS": 11,
+          "AVG_LATENCY": 87.3
+        }
+      ]
+    },
+    {
+      "from": 1700013800000,
+      "to": 1700014400000,
+      "datapoints": [
+        {
+          "timestamp": 1700014400000,
+          "REQUESTS": 1898,
+          "ERRORS": 11,
+          "AVG_LATENCY": 94.7
+        }
+      ]
+    },
+    {
+      "from": 1700014400000,
+      "to": 1700015000000,
+      "datapoints": [
+        {
+          "timestamp": 1700015000000,
+          "REQUESTS": 706,
+          "ERRORS": 8,
+          "AVG_LATENCY": 106.5
+        }
+      ]
+    },
+    {
+      "from": 1700015000000,
+      "to": 1700015600000,
+      "datapoints": [
+        {
+          "timestamp": 1700015600000,
+          "REQUESTS": 710,
+          "ERRORS": 2,
+          "AVG_LATENCY": 113.0
+        }
+      ]
+    },
+    {
+      "from": 1700015600000,
+      "to": 1700016200000,
+      "datapoints": [
+        {
+          "timestamp": 1700016200000,
+          "REQUESTS": 865,
+          "ERRORS": 6,
+          "AVG_LATENCY": 56.3
+        }
+      ]
+    },
+    {
+      "from": 1700016200000,
+      "to": 1700016800000,
+      "datapoints": [
+        {
+          "timestamp": 1700016800000,
+          "REQUESTS": 1312,
+          "ERRORS": 16,
+          "AVG_LATENCY": 53.4
+        }
+      ]
+    },
+    {
+      "from": 1700016800000,
+      "to": 1700017400000,
+      "datapoints": [
+        {
+          "timestamp": 1700017400000,
+          "REQUESTS": 1549,
+          "ERRORS": 13,
+          "AVG_LATENCY": 105.7
+        }
+      ]
+    },
+    {
+      "from": 1700017400000,
+      "to": 1700018000000,
+      "datapoints": [
+        {
+          "timestamp": 1700018000000,
+          "REQUESTS": 1034,
+          "ERRORS": 5,
+          "AVG_LATENCY": 55.6
+        }
+      ]
+    },
+    {
+      "from": 1700018000000,
+      "to": 1700018600000,
+      "datapoints": [
+        {
+          "timestamp": 1700018600000,
+          "REQUESTS": 743,
+          "ERRORS": 12,
+          "AVG_LATENCY": 80.3
+        }
+      ]
+    },
+    {
+      "from": 1700018600000,
+      "to": 1700019200000,
+      "datapoints": [
+        {
+          "timestamp": 1700019200000,
+          "REQUESTS": 1947,
+          "ERRORS": 1,
+          "AVG_LATENCY": 66.1
+        }
+      ]
+    },
+    {
+      "from": 1700019200000,
+      "to": 1700019800000,
+      "datapoints": [
+        {
+          "timestamp": 1700019800000,
+          "REQUESTS": 642,
+          "ERRORS": 3,
+          "AVG_LATENCY": 94.3
+        }
+      ]
+    },
+    {
+      "from": 1700019800000,
+      "to": 1700020400000,
+      "datapoints": [
+        {
+          "timestamp": 1700020400000,
+          "REQUESTS": 1416,
+          "ERRORS": 12,
+          "AVG_LATENCY": 115.1
+        }
+      ]
+    },
+    {
+      "from": 1700020400000,
+      "to": 1700021000000,
+      "datapoints": [
+        {
+          "timestamp": 1700021000000,
+          "REQUESTS": 1774,
+          "ERRORS": 12,
+          "AVG_LATENCY": 78.3
+        }
+      ]
+    },
+    {
+      "from": 1700021000000,
+      "to": 1700021600000,
+      "datapoints": [
+        {
+          "timestamp": 1700021600000,
+          "REQUESTS": 1033,
+          "ERRORS": 10,
+          "AVG_LATENCY": 117.8
+        }
+      ]
+    },
+    {
+      "from": 1700021600000,
+      "to": 1700022200000,
+      "datapoints": [
+        {
+          "timestamp": 1700022200000,
+          "REQUESTS": 1350,
+          "ERRORS": 13,
+          "AVG_LATENCY": 105.1
+        }
+      ]
+    },
+    {
+      "from": 1700022200000,
+      "to": 1700022800000,
+      "datapoints": [
+        {
+          "timestamp": 1700022800000,
+          "REQUESTS": 1772,
+          "ERRORS": 1,
+          "AVG_LATENCY": 67.5
+        }
+      ]
+    },
+    {
+      "from": 1700022800000,
+      "to": 1700023400000,
+      "datapoints": [
+        {
+          "timestamp": 1700023400000,
+          "REQUESTS": 1799,
+          "ERRORS": 9,
+          "AVG_LATENCY": 61.1
+        }
+      ]
+    },
+    {
+      "from": 1700023400000,
+      "to": 1700024000000,
+      "datapoints": [
+        {
+          "timestamp": 1700024000000,
+          "REQUESTS": 1906,
+          "ERRORS": 5,
+          "AVG_LATENCY": 43.5
+        }
+      ]
+    },
+    {
+      "from": 1700024000000,
+      "to": 1700024600000,
+      "datapoints": [
+        {
+          "timestamp": 1700024600000,
+          "REQUESTS": 656,
+          "ERRORS": 7,
+          "AVG_LATENCY": 44.7
+        }
+      ]
+    },
+    {
+      "from": 1700024600000,
+      "to": 1700025200000,
+      "datapoints": [
+        {
+          "timestamp": 1700025200000,
+          "REQUESTS": 1561,
+          "ERRORS": 17,
+          "AVG_LATENCY": 90.2
+        }
+      ]
+    },
+    {
+      "from": 1700025200000,
+      "to": 1700025800000,
+      "datapoints": [
+        {
+          "timestamp": 1700025800000,
+          "REQUESTS": 1633,
+          "ERRORS": 6,
+          "AVG_LATENCY": 67.0
+        }
+      ]
+    },
+    {
+      "from": 1700025800000,
+      "to": 1700026400000,
+      "datapoints": [
+        {
+          "timestamp": 1700026400000,
+          "REQUESTS": 1313,
+          "ERRORS": 2,
+          "AVG_LATENCY": 76.4
+        }
+      ]
+    },
+    {
+      "from": 1700026400000,
+      "to": 1700027000000,
+      "datapoints": [
+        {
+          "timestamp": 1700027000000,
+          "REQUESTS": 1025,
+          "ERRORS": 13,
+          "AVG_LATENCY": 88.3
+        }
+      ]
+    },
+    {
+      "from": 1700027000000,
+      "to": 1700027600000,
+      "datapoints": [
+        {
+          "timestamp": 1700027600000,
+          "REQUESTS": 1578,
+          "ERRORS": 7,
+          "AVG_LATENCY": 49.2
+        }
+      ]
+    },
+    {
+      "from": 1700027600000,
+      "to": 1700028200000,
+      "datapoints": [
+        {
+          "timestamp": 1700028200000,
+          "REQUESTS": 597,
+          "ERRORS": 3,
+          "AVG_LATENCY": 92.3
+        }
+      ]
+    },
+    {
+      "from": 1700028200000,
+      "to": 1700028800000,
+      "datapoints": [
+        {
+          "timestamp": 1700028800000,
+          "REQUESTS": 1424,
+          "ERRORS": 3,
+          "AVG_LATENCY": 119.1
+        }
+      ]
+    },
+    {
+      "from": 1700028800000,
+      "to": 1700029400000,
+      "datapoints": [
+        {
+          "timestamp": 1700029400000,
+          "REQUESTS": 623,
+          "ERRORS": 17,
+          "AVG_LATENCY": 46.9
+        }
+      ]
+    },
+    {
+      "from": 1700029400000,
+      "to": 1700030000000,
+      "datapoints": [
+        {
+          "timestamp": 1700030000000,
+          "REQUESTS": 1060,
+          "ERRORS": 13,
+          "AVG_LATENCY": 79.6
+        }
+      ]
+    },
+    {
+      "from": 1700030000000,
+      "to": 1700030600000,
+      "datapoints": [
+        {
+          "timestamp": 1700030600000,
+          "REQUESTS": 1771,
+          "ERRORS": 13,
+          "AVG_LATENCY": 69.4
+        }
+      ]
+    },
+    {
+      "from": 1700030600000,
+      "to": 1700031200000,
+      "datapoints": [
+        {
+          "timestamp": 1700031200000,
+          "REQUESTS": 1290,
+          "ERRORS": 14,
+          "AVG_LATENCY": 66.1
+        }
+      ]
+    },
+    {
+      "from": 1700031200000,
+      "to": 1700031800000,
+      "datapoints": [
+        {
+          "timestamp": 1700031800000,
+          "REQUESTS": 1457,
+          "ERRORS": 13,
+          "AVG_LATENCY": 69.4
+        }
+      ]
+    },
+    {
+      "from": 1700031800000,
+      "to": 1700032400000,
+      "datapoints": [
+        {
+          "timestamp": 1700032400000,
+          "REQUESTS": 1334,
+          "ERRORS": 18,
+          "AVG_LATENCY": 78.3
+        }
+      ]
+    },
+    {
+      "from": 1700032400000,
+      "to": 1700033000000,
+      "datapoints": [
+        {
+          "timestamp": 1700033000000,
+          "REQUESTS": 523,
+          "ERRORS": 17,
+          "AVG_LATENCY": 51.8
+        }
+      ]
+    },
+    {
+      "from": 1700033000000,
+      "to": 1700033600000,
+      "datapoints": [
+        {
+          "timestamp": 1700033600000,
+          "REQUESTS": 1593,
+          "ERRORS": 14,
+          "AVG_LATENCY": 51.8
+        }
+      ]
+    },
+    {
+      "from": 1700033600000,
+      "to": 1700034200000,
+      "datapoints": [
+        {
+          "timestamp": 1700034200000,
+          "REQUESTS": 1268,
+          "ERRORS": 17,
+          "AVG_LATENCY": 71.1
+        }
+      ]
+    },
+    {
+      "from": 1700034200000,
+      "to": 1700034800000,
+      "datapoints": [
+        {
+          "timestamp": 1700034800000,
+          "REQUESTS": 1666,
+          "ERRORS": 16,
+          "AVG_LATENCY": 69.7
+        }
+      ]
+    },
+    {
+      "from": 1700034800000,
+      "to": 1700035400000,
+      "datapoints": [
+        {
+          "timestamp": 1700035400000,
+          "REQUESTS": 1375,
+          "ERRORS": 9,
+          "AVG_LATENCY": 47.1
+        }
+      ]
+    },
+    {
+      "from": 1700035400000,
+      "to": 1700036000000,
+      "datapoints": [
+        {
+          "timestamp": 1700036000000,
+          "REQUESTS": 1577,
+          "ERRORS": 20,
+          "AVG_LATENCY": 90.5
+        }
+      ]
+    },
+    {
+      "from": 1700036000000,
+      "to": 1700036600000,
+      "datapoints": [
+        {
+          "timestamp": 1700036600000,
+          "REQUESTS": 1406,
+          "ERRORS": 10,
+          "AVG_LATENCY": 110.5
+        }
+      ]
+    },
+    {
+      "from": 1700036600000,
+      "to": 1700037200000,
+      "datapoints": [
+        {
+          "timestamp": 1700037200000,
+          "REQUESTS": 1216,
+          "ERRORS": 18,
+          "AVG_LATENCY": 53.8
+        }
+      ]
+    },
+    {
+      "from": 1700037200000,
+      "to": 1700037800000,
+      "datapoints": [
+        {
+          "timestamp": 1700037800000,
+          "REQUESTS": 880,
+          "ERRORS": 16,
+          "AVG_LATENCY": 94.3
+        }
+      ]
+    },
+    {
+      "from": 1700037800000,
+      "to": 1700038400000,
+      "datapoints": [
+        {
+          "timestamp": 1700038400000,
+          "REQUESTS": 1433,
+          "ERRORS": 0,
+          "AVG_LATENCY": 65.5
+        }
+      ]
+    },
+    {
+      "from": 1700038400000,
+      "to": 1700039000000,
+      "datapoints": [
+        {
+          "timestamp": 1700039000000,
+          "REQUESTS": 1900,
+          "ERRORS": 2,
+          "AVG_LATENCY": 118.7
+        }
+      ]
+    },
+    {
+      "from": 1700039000000,
+      "to": 1700039600000,
+      "datapoints": [
+        {
+          "timestamp": 1700039600000,
+          "REQUESTS": 1305,
+          "ERRORS": 6,
+          "AVG_LATENCY": 55.1
+        }
+      ]
+    },
+    {
+      "from": 1700039600000,
+      "to": 1700040200000,
+      "datapoints": [
+        {
+          "timestamp": 1700040200000,
+          "REQUESTS": 1201,
+          "ERRORS": 7,
+          "AVG_LATENCY": 91.1
+        }
+      ]
+    },
+    {
+      "from": 1700040200000,
+      "to": 1700040800000,
+      "datapoints": [
+        {
+          "timestamp": 1700040800000,
+          "REQUESTS": 753,
+          "ERRORS": 10,
+          "AVG_LATENCY": 93.1
+        }
+      ]
+    },
+    {
+      "from": 1700040800000,
+      "to": 1700041400000,
+      "datapoints": [
+        {
+          "timestamp": 1700041400000,
+          "REQUESTS": 1319,
+          "ERRORS": 8,
+          "AVG_LATENCY": 91.6
+        }
+      ]
+    },
+    {
+      "from": 1700041400000,
+      "to": 1700042000000,
+      "datapoints": [
+        {
+          "timestamp": 1700042000000,
+          "REQUESTS": 714,
+          "ERRORS": 14,
+          "AVG_LATENCY": 106.8
+        }
+      ]
+    },
+    {
+      "from": 1700042000000,
+      "to": 1700042600000,
+      "datapoints": [
+        {
+          "timestamp": 1700042600000,
+          "REQUESTS": 1973,
+          "ERRORS": 11,
+          "AVG_LATENCY": 61.6
+        }
+      ]
+    },
+    {
+      "from": 1700042600000,
+      "to": 1700043200000,
+      "datapoints": [
+        {
+          "timestamp": 1700043200000,
+          "REQUESTS": 617,
+          "ERRORS": 12,
+          "AVG_LATENCY": 81.6
+        }
+      ]
+    },
+    {
+      "from": 1700043200000,
+      "to": 1700043800000,
+      "datapoints": [
+        {
+          "timestamp": 1700043800000,
+          "REQUESTS": 1899,
+          "ERRORS": 14,
+          "AVG_LATENCY": 64.6
+        }
+      ]
+    },
+    {
+      "from": 1700043800000,
+      "to": 1700044400000,
+      "datapoints": [
+        {
+          "timestamp": 1700044400000,
+          "REQUESTS": 1748,
+          "ERRORS": 1,
+          "AVG_LATENCY": 111.7
+        }
+      ]
+    },
+    {
+      "from": 1700044400000,
+      "to": 1700045000000,
+      "datapoints": [
+        {
+          "timestamp": 1700045000000,
+          "REQUESTS": 1952,
+          "ERRORS": 7,
+          "AVG_LATENCY": 67.9
+        }
+      ]
+    },
+    {
+      "from": 1700045000000,
+      "to": 1700045600000,
+      "datapoints": [
+        {
+          "timestamp": 1700045600000,
+          "REQUESTS": 996,
+          "ERRORS": 16,
+          "AVG_LATENCY": 103.8
+        }
+      ]
+    },
+    {
+      "from": 1700045600000,
+      "to": 1700046200000,
+      "datapoints": [
+        {
+          "timestamp": 1700046200000,
+          "REQUESTS": 1401,
+          "ERRORS": 16,
+          "AVG_LATENCY": 64.0
+        }
+      ]
+    },
+    {
+      "from": 1700046200000,
+      "to": 1700046800000,
+      "datapoints": [
+        {
+          "timestamp": 1700046800000,
+          "REQUESTS": 1712,
+          "ERRORS": 5,
+          "AVG_LATENCY": 78.2
+        }
+      ]
+    },
+    {
+      "from": 1700046800000,
+      "to": 1700047400000,
+      "datapoints": [
+        {
+          "timestamp": 1700047400000,
+          "REQUESTS": 1037,
+          "ERRORS": 12,
+          "AVG_LATENCY": 70.7
+        }
+      ]
+    },
+    {
+      "from": 1700047400000,
+      "to": 1700048000000,
+      "datapoints": [
+        {
+          "timestamp": 1700048000000,
+          "REQUESTS": 1994,
+          "ERRORS": 0,
+          "AVG_LATENCY": 119.1
+        }
+      ]
+    },
+    {
+      "from": 1700048000000,
+      "to": 1700048600000,
+      "datapoints": [
+        {
+          "timestamp": 1700048600000,
+          "REQUESTS": 1553,
+          "ERRORS": 3,
+          "AVG_LATENCY": 75.6
+        }
+      ]
+    },
+    {
+      "from": 1700048600000,
+      "to": 1700049200000,
+      "datapoints": [
+        {
+          "timestamp": 1700049200000,
+          "REQUESTS": 1685,
+          "ERRORS": 12,
+          "AVG_LATENCY": 109.8
+        }
+      ]
+    },
+    {
+      "from": 1700049200000,
+      "to": 1700049800000,
+      "datapoints": [
+        {
+          "timestamp": 1700049800000,
+          "REQUESTS": 1004,
+          "ERRORS": 18,
+          "AVG_LATENCY": 99.9
+        }
+      ]
+    },
+    {
+      "from": 1700049800000,
+      "to": 1700050400000,
+      "datapoints": [
+        {
+          "timestamp": 1700050400000,
+          "REQUESTS": 1301,
+          "ERRORS": 7,
+          "AVG_LATENCY": 113.3
+        }
+      ]
+    },
+    {
+      "from": 1700050400000,
+      "to": 1700051000000,
+      "datapoints": [
+        {
+          "timestamp": 1700051000000,
+          "REQUESTS": 1424,
+          "ERRORS": 9,
+          "AVG_LATENCY": 80.1
+        }
+      ]
+    },
+    {
+      "from": 1700051000000,
+      "to": 1700051600000,
+      "datapoints": [
+        {
+          "timestamp": 1700051600000,
+          "REQUESTS": 727,
+          "ERRORS": 5,
+          "AVG_LATENCY": 110.5
+        }
+      ]
+    },
+    {
+      "from": 1700051600000,
+      "to": 1700052200000,
+      "datapoints": [
+        {
+          "timestamp": 1700052200000,
+          "REQUESTS": 1971,
+          "ERRORS": 6,
+          "AVG_LATENCY": 43.8
+        }
+      ]
+    },
+    {
+      "from": 1700052200000,
+      "to": 1700052800000,
+      "datapoints": [
+        {
+          "timestamp": 1700052800000,
+          "REQUESTS": 1402,
+          "ERRORS": 5,
+          "AVG_LATENCY": 114.9
+        }
+      ]
+    },
+    {
+      "from": 1700052800000,
+      "to": 1700053400000,
+      "datapoints": [
+        {
+          "timestamp": 1700053400000,
+          "REQUESTS": 809,
+          "ERRORS": 10,
+          "AVG_LATENCY": 119.3
+        }
+      ]
+    },
+    {
+      "from": 1700053400000,
+      "to": 1700054000000,
+      "datapoints": [
+        {
+          "timestamp": 1700054000000,
+          "REQUESTS": 1437,
+          "ERRORS": 8,
+          "AVG_LATENCY": 93.1
+        }
+      ]
+    },
+    {
+      "from": 1700054000000,
+      "to": 1700054600000,
+      "datapoints": [
+        {
+          "timestamp": 1700054600000,
+          "REQUESTS": 545,
+          "ERRORS": 2,
+          "AVG_LATENCY": 102.4
+        }
+      ]
+    },
+    {
+      "from": 1700054600000,
+      "to": 1700055200000,
+      "datapoints": [
+        {
+          "timestamp": 1700055200000,
+          "REQUESTS": 1112,
+          "ERRORS": 11,
+          "AVG_LATENCY": 89.3
+        }
+      ]
+    },
+    {
+      "from": 1700055200000,
+      "to": 1700055800000,
+      "datapoints": [
+        {
+          "timestamp": 1700055800000,
+          "REQUESTS": 1174,
+          "ERRORS": 10,
+          "AVG_LATENCY": 116.3
+        }
+      ]
+    },
+    {
+      "from": 1700055800000,
+      "to": 1700056400000,
+      "datapoints": [
+        {
+          "timestamp": 1700056400000,
+          "REQUESTS": 514,
+          "ERRORS": 10,
+          "AVG_LATENCY": 108.2
+        }
+      ]
+    },
+    {
+      "from": 1700056400000,
+      "to": 1700057000000,
+      "datapoints": [
+        {
+          "timestamp": 1700057000000,
+          "REQUESTS": 633,
+          "ERRORS": 2,
+          "AVG_LATENCY": 75.8
+        }
+      ]
+    },
+    {
+      "from": 1700057000000,
+      "to": 1700057600000,
+      "datapoints": [
+        {
+          "timestamp": 1700057600000,
+          "REQUESTS": 1078,
+          "ERRORS": 2,
+          "AVG_LATENCY": 118.6
+        }
+      ]
+    },
+    {
+      "from": 1700057600000,
+      "to": 1700058200000,
+      "datapoints": [
+        {
+          "timestamp": 1700058200000,
+          "REQUESTS": 693,
+          "ERRORS": 4,
+          "AVG_LATENCY": 106.8
+        }
+      ]
+    },
+    {
+      "from": 1700058200000,
+      "to": 1700058800000,
+      "datapoints": [
+        {
+          "timestamp": 1700058800000,
+          "REQUESTS": 1975,
+          "ERRORS": 5,
+          "AVG_LATENCY": 94.9
+        }
+      ]
+    },
+    {
+      "from": 1700058800000,
+      "to": 1700059400000,
+      "datapoints": [
+        {
+          "timestamp": 1700059400000,
+          "REQUESTS": 1392,
+          "ERRORS": 10,
+          "AVG_LATENCY": 48.9
+        }
+      ]
+    },
+    {
+      "from": 1700059400000,
+      "to": 1700060000000,
+      "datapoints": [
+        {
+          "timestamp": 1700060000000,
+          "REQUESTS": 691,
+          "ERRORS": 10,
+          "AVG_LATENCY": 111.7
+        }
+      ]
+    }
+  ]
 }
-

@@ -74,6 +74,8 @@ export async function GET(request: NextRequest) {
         const fieldFilteredDs2 = filterFields(filteredDs2, fieldsQuery);
         return Response.json(fieldFilteredDs2);
       }
+      // return filtered records when no fields filter is provided
+      return Response.json(filteredDs2);
     default:
       return Response.json({ message: 'Dataset not found' }, { status: 404 });
   }

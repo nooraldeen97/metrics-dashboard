@@ -1,23 +1,24 @@
-"use client";
 import React from "react";
 import BadgeComponent from "./badge";
 import { useState, useEffect } from "react";
-import { useRouter } from "next/navigation";
+import { useDatasetContext } from "../context/useDatasetContext";
 
-interface ListItem {
+interface Dataset {
   id: string;
   name: string;
   status: string;
+  description: string;
+  fields: string[];
 }
 
+
 interface ListProps {
-  dataList: ListItem[];
+  dataList: Dataset[];
 }
 
 function List({ dataList }: ListProps) {
   const [selectedId, setSelectedId] = useState<string | null>(null);
-  const router = useRouter();
-
+  const {contextData, setContextData}=useDatasetContext();
   useEffect(() => {
     if (!selectedId && dataList?.length > 0) {
       // eslint-disable-next-line react-hooks/set-state-in-effect
@@ -26,16 +27,16 @@ function List({ dataList }: ListProps) {
     }
   }, [dataList, selectedId]);
 
-  function handleClick(id: string) {
-    setSelectedId(id);
-    router.replace(`/${id}`);
+  function handleClick(item: Dataset) {
+    setSelectedId(item.id);
+    setContextData(item)
   }
   return (
     <div className="overflow-y-scroll">
       {dataList.map((item) => (
         <div className="w-full" key={item.id}>
           <div
-            onClick={() => handleClick(item.id)}
+            onClick={() => handleClick(item)}
             className={`
       flex mt-5 rounded-md p-4 items-center justify-between
       cursor-pointer transition-colors
