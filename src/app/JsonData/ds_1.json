@@ -1,6 +1,87 @@
 {
   "dataset_id": "ds_1",
-  "annotations": [],
+  "annotations": [
+    {
+      "id": 4,
+      "timestamp": 1234567890,
+      "text": "Deploy v2.3"
+    },
+    {
+      "id": 6,
+      "timestamp": 15,
+      "text": "New annotation from Home page"
+    },
+    {
+      "id": 7,
+      "timestamp": 1565633908223,
+      "text": "New annotation from Home page"
+    },
+    {
+      "id": 8,
+      "timestamp": 165633908223,
+      "text": "New annotation from Home page"
+    },
+    {
+      "id": 9,
+      "timestamp": 1865633908223,
+      "text": "New annotation from Home page"
+    },
+    {
+      "id": 10,
+      "timestamp": 1865633908223,
+      "text": "New annotation from Home page"
+    },
+    {
+      "id": 11,
+      "timestamp": 1865633908223,
+      "text": "New annotation from Home page"
+    },
+    {
+      "id": 12,
+      "timestamp": 1865633908223,
+      "text": "New annotation from Home page"
+    },
+    {
+      "id": 13,
+      "timestamp": 1865633908223,
+      "text": "New annotation from Home page"
+    },
+    {
+      "id": 14,
+      "timestamp": 1865633908223,
+      "text": "New annotation from Home page"
+    },
+    {
+      "id": 15,
+      "timestamp": 1865633908223,
+      "text": "New annotation from Home page"
+    },
+    {
+      "id": 16,
+      "timestamp": 1865633908223,
+      "text": "New annotation from Home page"
+    },
+    {
+      "id": 17,
+      "timestamp": 1865633908223,
+      "text": "New annotation from Home page"
+    },
+    {
+      "id": 18,
+      "timestamp": 1865633908223,
+      "text": "New annotation from Home page"
+    },
+    {
+      "id": 19,
+      "timestamp": 1865633908223,
+      "text": "New annotation from Home page"
+    },
+    {
+      "id": 20,
+      "timestamp": 1865633908223,
+      "text": "New annotation from Home page"
+    }
+  ],
   "records": [
     {
       "from": 1700000000000,
@@ -152,7 +233,7 @@
           "ERRORS": 9,
           "P50_LATENCY": 48.9,
           "P95_LATENCY": 181.5,
-          "P99_LATENCY": 363.0
+          "P99_LATENCY": 363
         }
       ]
     },
@@ -264,7 +345,7 @@
           "ERRORS": 38,
           "P50_LATENCY": 54.4,
           "P95_LATENCY": 121.3,
-          "P99_LATENCY": 300.0
+          "P99_LATENCY": 300
         }
       ]
     },
@@ -319,7 +400,7 @@
           "REQUESTS": 2569,
           "ERRORS": 24,
           "P50_LATENCY": 63.5,
-          "P95_LATENCY": 114.0,
+          "P95_LATENCY": 114,
           "P99_LATENCY": 239.5
         }
       ]
@@ -416,7 +497,7 @@
           "timestamp": 1700018000000,
           "REQUESTS": 3834,
           "ERRORS": 16,
-          "P50_LATENCY": 67.0,
+          "P50_LATENCY": 67,
           "P95_LATENCY": 171.7,
           "P99_LATENCY": 373.8
         }
@@ -458,7 +539,7 @@
           "timestamp": 1700019800000,
           "REQUESTS": 3892,
           "ERRORS": 46,
-          "P50_LATENCY": 23.0,
+          "P50_LATENCY": 23,
           "P95_LATENCY": 189.1,
           "P99_LATENCY": 296.5
         }
@@ -474,7 +555,7 @@
           "ERRORS": 7,
           "P50_LATENCY": 60.3,
           "P95_LATENCY": 139.4,
-          "P99_LATENCY": 259.0
+          "P99_LATENCY": 259
         }
       ]
     },
@@ -501,7 +582,7 @@
           "REQUESTS": 2320,
           "ERRORS": 14,
           "P50_LATENCY": 49.5,
-          "P95_LATENCY": 138.0,
+          "P95_LATENCY": 138,
           "P99_LATENCY": 252.1
         }
       ]
@@ -514,7 +595,7 @@
           "timestamp": 1700022200000,
           "REQUESTS": 2832,
           "ERRORS": 46,
-          "P50_LATENCY": 49.0,
+          "P50_LATENCY": 49,
           "P95_LATENCY": 189.7,
           "P99_LATENCY": 356.3
         }
@@ -697,7 +778,7 @@
           "REQUESTS": 3698,
           "ERRORS": 8,
           "P50_LATENCY": 71.4,
-          "P95_LATENCY": 90.0,
+          "P95_LATENCY": 90,
           "P99_LATENCY": 237.6
         }
       ]
@@ -710,7 +791,7 @@
           "timestamp": 1700030600000,
           "REQUESTS": 1585,
           "ERRORS": 19,
-          "P50_LATENCY": 76.0,
+          "P50_LATENCY": 76,
           "P95_LATENCY": 128.3,
           "P99_LATENCY": 324.8
         }
@@ -740,7 +821,7 @@
           "ERRORS": 22,
           "P50_LATENCY": 76.7,
           "P95_LATENCY": 189.4,
-          "P99_LATENCY": 213.0
+          "P99_LATENCY": 213
         }
       ]
     },
@@ -767,7 +848,7 @@
           "REQUESTS": 2232,
           "ERRORS": 13,
           "P50_LATENCY": 72.2,
-          "P95_LATENCY": 167.0,
+          "P95_LATENCY": 167,
           "P99_LATENCY": 238.8
         }
       ]
@@ -795,7 +876,7 @@
           "REQUESTS": 2516,
           "ERRORS": 6,
           "P50_LATENCY": 60.1,
-          "P95_LATENCY": 147.0,
+          "P95_LATENCY": 147,
           "P99_LATENCY": 387.9
         }
       ]
@@ -823,7 +904,7 @@
           "REQUESTS": 2689,
           "ERRORS": 48,
           "P50_LATENCY": 71.1,
-          "P95_LATENCY": 182.0,
+          "P95_LATENCY": 182,
           "P99_LATENCY": 370.4
         }
       ]
@@ -894,7 +975,7 @@
           "ERRORS": 27,
           "P50_LATENCY": 64.3,
           "P95_LATENCY": 141.7,
-          "P99_LATENCY": 376.0
+          "P99_LATENCY": 376
         }
       ]
     },
@@ -921,7 +1002,7 @@
           "REQUESTS": 4365,
           "ERRORS": 33,
           "P50_LATENCY": 31.4,
-          "P95_LATENCY": 184.0,
+          "P95_LATENCY": 184,
           "P99_LATENCY": 352.6
         }
       ]
@@ -1006,7 +1087,7 @@
           "ERRORS": 12,
           "P50_LATENCY": 65.3,
           "P95_LATENCY": 171.5,
-          "P99_LATENCY": 300.0
+          "P99_LATENCY": 300
         }
       ]
     },
@@ -1060,7 +1141,7 @@
           "timestamp": 1700045600000,
           "REQUESTS": 2884,
           "ERRORS": 48,
-          "P50_LATENCY": 55.0,
+          "P50_LATENCY": 55,
           "P95_LATENCY": 122.9,
           "P99_LATENCY": 295.2
         }
@@ -1118,7 +1199,7 @@
           "ERRORS": 42,
           "P50_LATENCY": 46.3,
           "P95_LATENCY": 149.6,
-          "P99_LATENCY": 372.0
+          "P99_LATENCY": 372
         }
       ]
     },
@@ -1160,7 +1241,7 @@
           "ERRORS": 3,
           "P50_LATENCY": 48.8,
           "P95_LATENCY": 85.8,
-          "P99_LATENCY": 272.0
+          "P99_LATENCY": 272
         }
       ]
     },
@@ -1188,7 +1269,7 @@
           "ERRORS": 43,
           "P50_LATENCY": 41.8,
           "P95_LATENCY": 170.3,
-          "P99_LATENCY": 333.0
+          "P99_LATENCY": 333
         }
       ]
     },
@@ -1229,7 +1310,7 @@
           "REQUESTS": 2865,
           "ERRORS": 6,
           "P50_LATENCY": 51.8,
-          "P95_LATENCY": 147.0,
+          "P95_LATENCY": 147,
           "P99_LATENCY": 366.1
         }
       ]
@@ -1314,7 +1395,7 @@
           "ERRORS": 7,
           "P50_LATENCY": 47.8,
           "P95_LATENCY": 128.3,
-          "P99_LATENCY": 266.0
+          "P99_LATENCY": 266
         }
       ]
     },
@@ -1356,7 +1437,7 @@
           "ERRORS": 21,
           "P50_LATENCY": 32.3,
           "P95_LATENCY": 151.8,
-          "P99_LATENCY": 248.0
+          "P99_LATENCY": 248
         }
       ]
     },

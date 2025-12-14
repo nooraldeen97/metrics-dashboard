@@ -8,12 +8,12 @@ export async function GET(request: NextRequest) {
 
   const headersAuth = request.headers.get('Authorization')?.split(' ')[1];
 
-  // if (headersAuth !== 'mysecrettoken') {
-  //   return new Response(JSON.stringify({ message: 'Unauthorized' }), {
-  //     status: 401,
-  //     headers: { 'Content-Type': 'application/json' }
-  //   });
-  // }
+  if (headersAuth !== 'mysecrettoken') {
+    return new Response(JSON.stringify({ message: 'Unauthorized' }), {
+      status: 401,
+      headers: { 'Content-Type': 'application/json' }
+    });
+  }
 
   let datasets = data.datasets;
 
@@ -28,9 +28,9 @@ export async function GET(request: NextRequest) {
     );
   }
 
-  if (statusInput) {
+  if (statusInput ) {
     datasets = datasets.filter((dataset) =>
-      dataset.status && dataset.status.toLowerCase().includes(statusInput.toLowerCase())
+      dataset.status && dataset.status.toLowerCase()==(statusInput.toLowerCase())
     );
   }
 
@@ -38,6 +38,6 @@ export async function GET(request: NextRequest) {
     setTimeout(() => {
       resolve(Response.json(datasets ));
 
-    }, 0);
+    }, 1500);
   });
 }
