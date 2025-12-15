@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import BadgeComponent from "./StatusBadge";
 import TimeTabs from "./TimeTabs";
