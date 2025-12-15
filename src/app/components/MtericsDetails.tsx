@@ -15,7 +15,7 @@ interface DatasetDetailsProps {
   data: Dataset | null;
 }
 
-function DatasetDetails({ data }: DatasetDetailsProps) {
+export function MtericsDetails({ data }: DatasetDetailsProps) {
   return (
     <div className="border shadow-md rounded-lg mt-5 p-5">
       <div className=" flex  mb-2">
@@ -48,4 +48,4 @@ function DatasetDetails({ data }: DatasetDetailsProps) {
   );
 }
 
-export default DatasetDetails;
+

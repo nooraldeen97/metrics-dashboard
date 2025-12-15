@@ -15,7 +15,7 @@ interface ListProps {
   dataList: Dataset[];
 }
 
-function DatasetList({ dataList }: ListProps) {
+export function DatasetList({ dataList }: ListProps) {
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const { contextData, setContextData } = useDatasetContext();
   useEffect(() => {
@@ -65,4 +65,3 @@ function DatasetList({ dataList }: ListProps) {
   );
 }
 
-export default DatasetList;

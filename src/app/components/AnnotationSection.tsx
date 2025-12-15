@@ -6,7 +6,7 @@ import { apiCall } from "../lib/api";
 interface anotPropType {
   isloading: boolean;
 }
-function AnnotationSection({ isloading }: anotPropType) {
+export function AnnotationSection({ isloading }: anotPropType) {
   const { AnnotationData, contextData, setAnnotationData } =
     useDatasetContext();
 
@@ -59,4 +59,4 @@ function AnnotationSection({ isloading }: anotPropType) {
   );
 }
 
-export default AnnotationSection;
+

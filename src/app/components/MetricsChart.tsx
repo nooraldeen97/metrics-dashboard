@@ -49,7 +49,7 @@ interface SeriesOption {
   smooth?: boolean;
 }
 
-function MetricsChart() {
+export function MetricsChart() {
   const { contextData } = useDatasetContext();
   const [option, setOption] = useState<EChartOption | undefined>(undefined);
   const { metricsFilters, setAnnotationData } = useDatasetContext();
@@ -110,4 +110,4 @@ function MetricsChart() {
   );
 }
 
-export default MetricsChart;
+

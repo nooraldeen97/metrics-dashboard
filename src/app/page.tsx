@@ -3,13 +3,13 @@ import Image from "next/image";
 import { apiCall } from "./lib/api";
 import { StatusSelect } from "./components/StatusSelect";
 import { SearchInput } from "./components/SearchInput";
-import DatasetList from "./components/DatasetList";
+import {DatasetList} from "./components/DatasetList";
 import { useEffect, useState } from "react";
 import { SkeletonCard } from "./components/SkeletonCard";
-import MetricsChart from "./components/MetricsChart";
+import {MetricsChart} from "./components/MetricsChart";
 import { useDatasetContext } from "./context/useDatasetContext";
-import DatasetDetails from "./components/DatasetDetails";
-import AnnotationSection from "./components/AnnotationSection";
+import {AnnotationSection} from "./components/AnnotationSection";
+import {MtericsDetails} from "./components/MtericsDetails";
 
 interface Dataset {
   id: string;
@@ -60,7 +60,7 @@ export default function Home() {
         {isloading ? (
           <SkeletonCard count={1} className="h-50" />
         ) : (
-          <DatasetDetails data={contextData} />
+          <MtericsDetails data={contextData} />
         )}
         {isloading ? (
           <SkeletonCard count={1} className="h-100" />
