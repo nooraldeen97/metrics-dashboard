@@ -4,7 +4,7 @@ interface MetricsPropType {
   metricsData?: string[];
 }
 
-function Metrics({ metricsData = [] }: MetricsPropType) {
+function MetricsFields({ metricsData = [] }: MetricsPropType) {
   return (
     <div className="flex gap-2 items-center">
       <h1 className="font-normal text-sm text-gray-500">METRICS</h1>
@@ -22,4 +22,4 @@ function Metrics({ metricsData = [] }: MetricsPropType) {
   );
 }
 
-export default Metrics;
+export default MetricsFields;

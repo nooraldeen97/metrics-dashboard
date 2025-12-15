@@ -1,19 +1,20 @@
 import React from 'react';
 import { Badge } from "@/components/ui/badge";
+import { cn } from '@/lib/utils';
 
 interface BadgeProps {
     variant?: "default" | "secondary" | "destructive" | "outline";
     title?: string;
-    color?: string;
+    className?:string;
 }
 
 
-function BadgeComponent({variant = "default", title = "loading",color}: BadgeProps) {
+function StatusBadge({variant = "default", title = "loading",className}: BadgeProps) {
   return (
     <div className=' ml-auto'>
-    <Badge variant={variant} className={color}>{title}</Badge>
+    <Badge variant={variant} className={cn(className)}>{title}</Badge>
     </div>
   );
 }
 
-export default BadgeComponent;
+export default StatusBadge;

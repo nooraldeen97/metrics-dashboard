@@ -14,7 +14,7 @@ interface SelectStatusProps {
   changeFilter: (value: string) => void;
 }
 
-export function SelectStatus({ changeFilter }: SelectStatusProps) {
+export function StatusSelect({ changeFilter }: SelectStatusProps) {
   return (
     <Select onValueChange={(value) => changeFilter( value)}>
       <SelectTrigger className="mt-2.5 w-full">

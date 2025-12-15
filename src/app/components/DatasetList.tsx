@@ -1,5 +1,5 @@
 import React from "react";
-import BadgeComponent from "./badge";
+import BadgeComponent from "./StatusBadge";
 import { useState, useEffect } from "react";
 import { useDatasetContext } from "../context/useDatasetContext";
 
@@ -11,14 +11,13 @@ interface Dataset {
   fields: string[];
 }
 
-
 interface ListProps {
   dataList: Dataset[];
 }
 
-function List({ dataList }: ListProps) {
+function DatasetList({ dataList }: ListProps) {
   const [selectedId, setSelectedId] = useState<string | null>(null);
-  const {contextData, setContextData}=useDatasetContext();
+  const { contextData, setContextData } = useDatasetContext();
   useEffect(() => {
     if (!selectedId && dataList?.length > 0) {
       // eslint-disable-next-line react-hooks/set-state-in-effect
@@ -29,7 +28,7 @@ function List({ dataList }: ListProps) {
 
   function handleClick(item: Dataset) {
     setSelectedId(item.id);
-    setContextData(item)
+    setContextData(item);
   }
   return (
     <div className="overflow-y-scroll">
@@ -51,7 +50,7 @@ function List({ dataList }: ListProps) {
             <BadgeComponent
               variant={item.status === "archived" ? "outline" : "secondary"}
               title={item.status}
-              color={
+              className={
                 item.status === "active"
                   ? "bg-green-200"
                   : item.status === "inactive"
@@ -66,4 +65,4 @@ function List({ dataList }: ListProps) {
   );
 }
 
-export default List;
+export default DatasetList;

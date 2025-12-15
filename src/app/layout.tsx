@@ -27,9 +27,20 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased `}
       >
+        <header className="w-full bg-white px-6 py-4 border-b">
+          <h1 className="text-xl font-semibold text-gray-900">
+            Metrics Dashboard
+          </h1>
+        </header>
+
         <DatasetProvider>{children}</DatasetProvider>
+        <footer className="w-full border-t bg-white px-6 py-4">
+          <div className="text-right text-sm text-gray-600">
+            © {new Date().getFullYear()} Noureddin Khalaf · Contact: 0782622515
+          </div>
+        </footer>
       </body>
     </html>
   );

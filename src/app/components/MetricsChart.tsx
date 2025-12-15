@@ -49,6 +49,13 @@ interface SeriesOption {
   smooth?: boolean;
 }
 
+interface MetricRecord {
+  datapoints: Array<{
+    timestamp: string | number | Date;
+    [key: string]: string | number | Date;
+  }>;
+}
+
 
 function MetricsChart() {
   const { contextData } = useDatasetContext();
@@ -64,7 +71,7 @@ function MetricsChart() {
         
         // Filter records that actually contain datapoints
         const validRecords = records.filter(
-          (record: { datapoints: { timestamp: string | number | Date }[] }) =>
+          (record: MetricRecord) =>
             Array.isArray(record.datapoints) && record.datapoints.length > 0
         );
 
@@ -83,7 +90,7 @@ function MetricsChart() {
            X AXIS (TIME)
         ======================= */
 
-        const xAxisData = validRecords.map((record: any) =>
+        const xAxisData = validRecords.map((record: MetricRecord) =>
           new Date(record.datapoints[0].timestamp).toLocaleTimeString()
         );
 
@@ -102,7 +109,7 @@ function MetricsChart() {
             .replace(/^\w/, (c) => c.toUpperCase()),
           type: "line",
           smooth: true,
-          data: validRecords.map((record: any) =>
+          data: validRecords.map((record: MetricRecord) =>
             Number(record.datapoints[0][key] ?? 0)
           ),
         }));
