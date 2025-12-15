@@ -22,7 +22,6 @@ export async function apiCall( endpoint: string, method: string, body?: unknown,
     return response.data;
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     } catch (error: any) {
-        // console.log('API Call Error:', error?.response?.data || error.message);
         return { message: error.response?.data?.message ,error: error.message } as ApiErrorResponse;
         
     }

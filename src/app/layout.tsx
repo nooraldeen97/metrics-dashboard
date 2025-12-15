@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-
+import Image from "next/image";
+import logo from "./asstes/logo.png";
 import "./globals.css";
 import { DatasetProvider } from "./context/DatasetContext";
 
@@ -27,15 +28,28 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased `}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        {/* Header */}
         <header className="w-full bg-white px-6 py-4 border-b">
-          <h1 className="text-xl font-semibold text-gray-900">
-            Metrics Dashboard
-          </h1>
+          <div className="flex items-center gap-3">
+            <Image
+              src={logo}
+              alt="Logo"
+              width={50}
+              height={50}
+              className="object-contain"
+            />
+
+            <h1 className="text-xl font-semibold text-gray-900">
+              Metrics Dashboard
+            </h1>
+          </div>
         </header>
 
         <DatasetProvider>{children}</DatasetProvider>
+
+        {/* Footer */}
         <footer className="w-full border-t bg-white px-6 py-4">
           <div className="text-right text-sm text-gray-600">
             © {new Date().getFullYear()} Noureddin Khalaf · Contact: 0782622515

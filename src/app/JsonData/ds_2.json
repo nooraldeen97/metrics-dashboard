@@ -3,8 +3,9 @@
   "annotations": [
     {
       "id": 1,
-      "timestamp": 1234567890,
-      "text": "Deploy v2.3"
+      "timestamp": 1700014400000,
+      "text": "Strike",
+      "name": "Requests"
     }
   ],
   "records": [
@@ -136,7 +137,7 @@
           "timestamp": 1700006600000,
           "REQUESTS": 1446,
           "ERRORS": 13,
-          "AVG_LATENCY": 109.0
+          "AVG_LATENCY": 109
         }
       ]
     },
@@ -208,7 +209,7 @@
           "timestamp": 1700010200000,
           "REQUESTS": 1726,
           "ERRORS": 11,
-          "AVG_LATENCY": 56.0
+          "AVG_LATENCY": 56
         }
       ]
     },
@@ -220,7 +221,7 @@
           "timestamp": 1700010800000,
           "REQUESTS": 1828,
           "ERRORS": 12,
-          "AVG_LATENCY": 70.0
+          "AVG_LATENCY": 70
         }
       ]
     },
@@ -268,7 +269,7 @@
           "timestamp": 1700013200000,
           "REQUESTS": 502,
           "ERRORS": 0,
-          "AVG_LATENCY": 114.0
+          "AVG_LATENCY": 114
         }
       ]
     },
@@ -316,7 +317,7 @@
           "timestamp": 1700015600000,
           "REQUESTS": 710,
           "ERRORS": 2,
-          "AVG_LATENCY": 113.0
+          "AVG_LATENCY": 113
         }
       ]
     },
@@ -520,7 +521,7 @@
           "timestamp": 1700025800000,
           "REQUESTS": 1633,
           "ERRORS": 6,
-          "AVG_LATENCY": 67.0
+          "AVG_LATENCY": 67
         }
       ]
     },
@@ -928,7 +929,7 @@
           "timestamp": 1700046200000,
           "REQUESTS": 1401,
           "ERRORS": 16,
-          "AVG_LATENCY": 64.0
+          "AVG_LATENCY": 64
         }
       ]
     },

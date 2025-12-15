@@ -1,4 +1,4 @@
-import { NextRequest } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import data from "../../JsonData/datasets.json";
 
 
@@ -34,10 +34,11 @@ export async function GET(request: NextRequest) {
     );
   }
 
-  return new Promise((resolve) => {
+   await new Promise((resolve) => {
     setTimeout(() => {
-      resolve(Response.json(datasets ));
+      resolve(true);
 
     }, 1500);
   });
+  return NextResponse.json(datasets )
 }

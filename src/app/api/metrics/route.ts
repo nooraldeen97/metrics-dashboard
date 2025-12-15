@@ -18,13 +18,25 @@ interface RecordType {
   datapoints: Datapoint[];
 }
 
+interface Annotation {
+  id: string;
+  timestamp: number;
+  text: string;
+}
+
+interface MetricsData{
+  dataset_id:string;
+  annotations:Annotation[];
+  records:RecordType[];
+}
+
 export async function GET(request: NextRequest) {
 
   function filterByTimeRange(
     records: RecordType[],
     startTime: number,
     endTime: number
-  ): RecordType[] {
+  ): RecordType[] { // changed return type to RecordType[]
     return records.filter(record =>
       record.from >= startTime && record.to <= endTime
     );
@@ -60,26 +72,30 @@ export async function GET(request: NextRequest) {
   const fieldsQuery = searchParams.get('fields');
 
   switch (datasetQuery) {
-    case 'ds_1':
-      const filteredDs1 = filterByTimeRange(ds1data.records, fromQuery ? parseInt(fromQuery) : 0, toQuery ? parseInt(toQuery) : Date.now());
-      if (fieldsQuery) {
-        const fieldFilteredDs1 = filterFields(filteredDs1, fieldsQuery);
-        return Response.json(fieldFilteredDs1);
-      }
-      return Response.json(filteredDs1);
-    case 'ds_2':
-      const filteredDs2 = filterByTimeRange(ds2data.records, fromQuery ? parseInt(fromQuery) : 0, toQuery ? parseInt(toQuery) : Date.now());
-      if (fieldsQuery) {
-
-        const fieldFilteredDs2 = filterFields(filteredDs2, fieldsQuery);
-        return Response.json(fieldFilteredDs2);
-      }
-      // return filtered records when no fields filter is provided
-      return Response.json(filteredDs2);
+    case 'ds_1': {
+      const ds = ds1data as unknown as MetricsData;
+      const filteredRecords = filterByTimeRange(ds.records, fromQuery ? parseInt(fromQuery) : 0, toQuery ? parseInt(toQuery) : Date.now());
+      const recordsWithFields = fieldsQuery ? filterFields(filteredRecords, fieldsQuery) : filteredRecords;
+      const metrics: MetricsData = {
+        dataset_id: ds.dataset_id ?? 'ds_1',
+        annotations: ds.annotations ?? [],
+        records: recordsWithFields
+      };
+      return Response.json(metrics);
+    }
+    case 'ds_2': {
+      const ds = ds2data as unknown as MetricsData;
+      const filteredRecords = filterByTimeRange(ds.records, fromQuery ? parseInt(fromQuery) : 0, toQuery ? parseInt(toQuery) : Date.now());
+      const recordsWithFields = fieldsQuery ? filterFields(filteredRecords, fieldsQuery) : filteredRecords;
+      const metrics: MetricsData = {
+        dataset_id: ds.dataset_id ?? 'ds_2',
+        annotations: ds.annotations ?? [],
+        records: recordsWithFields
+      };
+      return Response.json(metrics);
+    }
     default:
       return Response.json({ message: 'Dataset not found' }, { status: 404 });
   }
 
 }
-
-

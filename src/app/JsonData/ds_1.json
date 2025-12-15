@@ -2,9 +2,16 @@
   "dataset_id": "ds_1",
   "annotations": [
     {
-      "id": 4,
-      "timestamp": 1234567890,
-      "text": "Deploy v2.3"
+      "id": 1,
+      "timestamp": 1700016800000,
+      "text": "Strike",
+      "name": "Requests"
+    },
+    {
+      "id": 2,
+      "timestamp": 1700026400000,
+      "text": "Down",
+      "name": "Requests"
     }
   ],
   "records": [

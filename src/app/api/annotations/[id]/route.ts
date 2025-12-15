@@ -17,9 +17,10 @@ export async function DELETE(request: NextRequest, { params }: { params: Promise
 ) {
 
     const { id } = await params;
+    const { dataset_id } = await request.json();
 
 
-    const filePath = path.join(process.cwd(), "src/app/JsonData/", `ds_1.json`);
+    const filePath = path.join(process.cwd(), "src/app/JsonData/", `${dataset_id}.json`);
 
 
 
